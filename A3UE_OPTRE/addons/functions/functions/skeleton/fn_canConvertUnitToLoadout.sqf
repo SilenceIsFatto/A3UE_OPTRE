@@ -1,5 +1,5 @@
 params [
-    ["_unit", ObjNull];
+    ["_unit", ObjNull]
 ];
 
 if (_unit isEqualTo ObjNull) exitWith {false};
