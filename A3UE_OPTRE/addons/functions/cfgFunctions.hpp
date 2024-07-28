@@ -10,6 +10,21 @@ class CfgFunctions
                 file = QPATHTOFOLDER(functions\Ammunition\fn_dress.sqf);
             };
         };
+        // causes version mismatch, because dumb
+        // class init 
+        // {
+        //     class initClient 
+        //     {
+        //         file = QPATHTOFOLDER(functions\init\fn_initClient.sqf);
+        //     };
+        // };
+        class proxy 
+        {
+            class onPlayerRespawn 
+            {
+                file = QPATHTOFOLDER(functions\proxy\fn_onPlayerRespawn.sqf);
+            };
+        };
         class Utility 
         {
             class setIdentity 
@@ -20,7 +35,7 @@ class CfgFunctions
     };
 
     //your own functions should be kept here
-    class ADDON
+    class PREFIX
     {
         class init
         {
