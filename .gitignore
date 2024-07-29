@@ -1,6 +1,7 @@
 .vscode/
 .github/
 build
+release
 *.biprivatekey
 *.bisign
 *.bikey
