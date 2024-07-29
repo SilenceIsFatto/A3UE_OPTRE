@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=748;
+		nextID=758;
 	};
 	class Camera
 	{
-		pos[]={10360.091,132.59265,17991.973};
-		dir[]={-0.34432,-0.65709603,0.67057443};
-		up[]={-0.30014417,0.75380623,0.58454037};
-		aside[]={0.88958228,-4.0046871e-008,0.45677429};
+		pos[]={10374.458,143.46367,17995.598};
+		dir[]={-0.66222423,-0.74928951,-0.0057234662};
+		up[]={-0.74926203,0.66223973,-0.006476284};
+		aside[]={-0.0086425152,-1.7477032e-007,0.99996513};
 	};
 };
 binarizationWanted=0;
@@ -33,7 +33,6 @@ addons[]=
 	"A3_Ui_F",
 	"A3_Modules_F",
 	"A3_Weapons_F_Ammoboxes",
-	"ace_cargo",
 	"A3_Characters_F",
 	"A3_Structures_F_EPC_Civ_InfoBoards",
 	"A3_Structures_F_Ind_AirPort",
@@ -47,22 +46,14 @@ addons[]=
 	"A3_Structures_F_Ind_Cargo",
 	"A3_Modules_F_Hc",
 	"A3_Weapons_F",
-	"ace_explosives",
 	"OPTRE_MJOLNIR_Units",
-	"OPTRE_ACE_Compat",
 	"OPTRE_Weapons_Items",
-	"OPTRE_ACE_Compat_Medical",
 	"OPTRE_FC_Units_Elite",
-	"OPTRE_FC_ACE_Compat",
 	"OPTRE_FC_Weapons_PlasmaGrenade",
 	"A3_Weapons_F_Items",
-	"ace_medical_engine",
-	"ace_medical_treatment",
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_Enoch_Military_Barracks",
 	"A3_Structures_F_Argo_Military_Fortifications",
-	"ace_logistics_wirecutter",
-	"ace_concertina_wire",
 	"A3_Structures_F_Argo_Military_Bunkers",
 	"A3_Structures_F_Civ_InfoBoards",
 	"A3_Structures_F_Wrecks",
@@ -72,7 +63,6 @@ addons[]=
 	"A3_Structures_F_Civ_Garbage",
 	"A3_Props_F_Enoch_Military_Decontamination",
 	"A3_Structures_F_Exp_Infrastructure_WaterSupply",
-	"ace_field_rations",
 	"A3_Structures_F_Households_House_Big01",
 	"A3_Props_F_Enoch_Military_Garbage",
 	"A3_Structures_F_Civ_Camping",
@@ -84,7 +74,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=31;
+		items=22;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -108,188 +98,127 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="ace_cargo";
-			name="ACE3 - Cargo";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item4
-		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item4
 		{
 			className="A3_Structures_F_EPC";
 			name="Arma 3 Win Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item5
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item6
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item7
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item8
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
-		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item11
+		class Item9
 		{
 			className="OPTRE_MJOLNIR_Units";
 			name="OPTRE_MJOLNIR_Units";
 			author="Article 2 Studios";
 		};
-		class Item12
-		{
-			className="OPTRE_ACE_Compat";
-			name="OPTRE_ACE_Compat";
-			author="Article 2 Studios";
-		};
-		class Item13
+		class Item10
 		{
 			className="OPTRE_Core";
 			name="OPTRE_Weapons_Items";
 			author="Article 2 Studios";
 		};
-		class Item14
+		class Item11
 		{
 			className="OPTRE_FC_Units";
 			name="OPTRE_FC_Units_Elite";
 			author="Article 2 Studios";
 		};
-		class Item15
-		{
-			className="OPTRE_FC_ACE_Compat";
-			name="OPTRE_FC_ACE_Compat";
-			author="Article 2 Studios";
-		};
-		class Item16
+		class Item12
 		{
 			className="OPTRE_FC_Weapons";
 			name="OPTRE_FC_Weapons_PlasmaGrenade";
 			author="Article 2 Studios";
 		};
-		class Item17
-		{
-			className="ace_medical_engine";
-			name="ACE3 - Medical Engine";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item18
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item19
+		class Item13
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item14
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
-		{
-			className="ace_logistics_wirecutter";
-			name="ACE3 - Logistics Wire Cutter";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item22
-		{
-			className="ace_concertina_wire";
-			name="ACE3 - Concertina Wire";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item23
+		class Item15
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item16
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item17
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item26
-		{
-			className="ace_field_rations";
-			name="ACE3 - Field Rations";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item27
+		class Item18
 		{
 			className="A3_Structures_F_Households";
 			name="Arma 3 - Houses";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item28
+		class Item19
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item20
 		{
 			className="A3_Structures_F_Enoch_Industrial";
 			name="Arma 3 Contact Platform - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item30
+		class Item21
 		{
 			className="A3_Rocks_F";
 			name="Arma 3 - Rocks and Stones";
@@ -313,7 +242,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -3641,7 +3570,7 @@ class Mission
 					colorName="ColorGreen";
 					a=19.902;
 					b=11.292349;
-					angle=113.47627;
+					angle=113.47625;
 					id=2491;
 				};
 				class Item17
@@ -9869,7 +9798,7 @@ class Mission
 			colorName="ColorGreen";
 			a=5;
 			b=5;
-			angle=179.40891;
+			angle=179.40889;
 			id=2477;
 			atlOffset=254.0981;
 		};
@@ -10163,7 +10092,7 @@ class Mission
 			colorName="ColorGreen";
 			a=5;
 			b=5;
-			angle=56.488976;
+			angle=56.488968;
 			id=2505;
 			atlOffset=238.07205;
 		};
@@ -14599,7 +14528,7 @@ class Mission
 			colorName="ColorGreen";
 			a=5;
 			b=5;
-			angle=56.488972;
+			angle=56.488964;
 			id=2964;
 			atlOffset=238.07205;
 		};
@@ -14613,7 +14542,7 @@ class Mission
 			colorName="ColorGreen";
 			a=5;
 			b=5;
-			angle=56.488972;
+			angle=56.488964;
 			id=2965;
 			atlOffset=238.07204;
 		};
@@ -14627,7 +14556,7 @@ class Mission
 			colorName="ColorGreen";
 			a=5;
 			b=5;
-			angle=56.488972;
+			angle=56.488964;
 			id=2966;
 			atlOffset=238.07207;
 		};
@@ -14641,7 +14570,7 @@ class Mission
 			colorName="ColorGreen";
 			a=5;
 			b=5;
-			angle=56.488972;
+			angle=56.488964;
 			id=2967;
 			atlOffset=238.07205;
 		};
@@ -14655,7 +14584,7 @@ class Mission
 			colorName="ColorGreen";
 			a=5;
 			b=5;
-			angle=56.488972;
+			angle=56.488964;
 			id=2968;
 			atlOffset=238.07205;
 		};
@@ -14669,7 +14598,7 @@ class Mission
 			colorName="ColorGreen";
 			a=5;
 			b=5;
-			angle=56.488972;
+			angle=56.488964;
 			id=2969;
 			atlOffset=238.07205;
 		};

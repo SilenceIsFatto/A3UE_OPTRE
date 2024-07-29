@@ -4,7 +4,7 @@
   # Antistasi Ultimate OPTRE (Operation Trebuchet) Extender
   This extender focuses on adding more integration with Operation Trebuchet And OPTRE: FC.
   
-  Right now this extender only adds spartan and elite slots to Altis.
+  Right now this extender only adds spartan and elite slots to select maps.
 
   This works by overwriting some functions and adding unit slots with their respective skeleton.
 </div>

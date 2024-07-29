@@ -84,10 +84,6 @@ if (side group _newUnit == teamPlayer) then
 		[(selectRandom unlockedmaps),"","",(selectRandom unlockedCompasses),(selectRandom unlockedwatches),""]
 	];
 
-	if ([_newUnit] call A3UE_OPTRE_fnc_canConvertUnitToLoadout) exitWith {
-		_loadout = [_newUnit] call A3UE_OPTRE_fnc_convertUnitToLoadout;
-	};
-
 	_newUnit setUnitLoadout _loadout;
 
 	if (!isPlayer (leader group _newUnit)) then {(group _newUnit) selectLeader _newUnit};
@@ -239,4 +235,10 @@ if (staminaEnabled isEqualTo false) then {
  
 if (swayEnabled isEqualTo false) then { 
 	_newUnit setCustomAimCoef 0; 
+};
+
+if ([_newUnit] call A3UE_OPTRE_fnc_canConvertUnitToLoadout) exitWith {
+	_loadout = [_newUnit] call A3UE_OPTRE_fnc_convertUnitToLoadout;
+
+	_newUnit setUnitLoadout _loadout;
 };

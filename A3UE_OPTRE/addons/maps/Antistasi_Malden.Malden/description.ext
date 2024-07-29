@@ -1,8 +1,8 @@
 #include "..\missionDescription\master.hpp"
 
-OnLoadName = $STR_antistasi_mission_info_Altis_mapname_short_text;
-OnLoadMission = $STR_antistasi_mission_info_Altis_blurb_text;
-briefingName = $STR_antistasi_mission_info_Altis_mapname_text;
+OnLoadName = $STR_antistasi_mission_info_Malden_mapname_short_text;
+OnLoadMission = $STR_antistasi_mission_info_Malden_blurb_text;
+briefingName = $STR_antistasi_mission_info_Malden_mapname_text;
 overviewText = $STR_antistasi_mission_info_Altis_description_text;
 loadScreen = LOAD_SCREEN_IMAGE;
 overviewPicture = OVERVIEW_IMAGE;
@@ -12,8 +12,8 @@ class CfgDiscordRichPresence
     applicationID="819852407265034260";
     defaultDetails="";
     defaultState="";
-    defaultLargeImageKey="altis";
-    defaultLargeImageText="Antistasi Ultimate - Altis";
+    defaultLargeImageKey="malden";
+    defaultLargeImageText="Antistasi Ultimate - Malden";
     defaultSmallImageKey="arma_3_logo";
     defaultSmallImageText="Arma 3 Custom Scenario";
     useTimeElapsed=1;

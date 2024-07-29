@@ -2,6 +2,8 @@
 .github/
 build
 *.biprivatekey
+*.bisign
+*.bikey
 *.log
 *.pbo
 *.pbo.bak
