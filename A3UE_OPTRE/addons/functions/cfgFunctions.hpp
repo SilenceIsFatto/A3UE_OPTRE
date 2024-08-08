@@ -1,6 +1,5 @@
 class CfgFunctions 
 {
-    //be careful when overwriting functions as version updates can break your extension
     class A3A 
     {
         class Ammunition 
@@ -34,7 +33,6 @@ class CfgFunctions
         };
     };
 
-    //your own functions should be kept here
     class PREFIX
     {
         class init
@@ -47,6 +45,11 @@ class CfgFunctions
             file = QPATHTOFOLDER(functions\skeleton);
             class canConvertUnitToLoadout {};
             class convertUnitToLoadout {};
+        };
+        class Utility
+        {
+            file = QPATHTOFOLDER(functions\Utility);
+            class setFaceAndSpeaker {};
         };
     };
 };
